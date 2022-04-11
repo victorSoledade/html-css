@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags</title>
+    <style>
+      body{
+        font-family: sans-serif;
+        background-color: darkgray;
+        margin: 0px;
+      }
+      header{
+        width: auto;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+      nav{
+        background-color: rgb(87, 87, 87);
+        padding: 3px;
+        box-shadow: 2px 2px 7px black;
+      }
+      nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+      nav > a:hover{
+        text-decoration: underline;
+        color: rgb(179, 179, 179);
+      }
+      main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.541);
+      }
+      article{
+        background-color: lightgray;
+        padding: 5px;
+      }
+      article > aside{
+        background-color: rgb(109, 109, 109);
+      }
+      footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        margin: 0px;
+      }
+      footer > p{
+        margin: 0px;
+      }
+      div#bola{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        margin: auto;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="assuntos">
+        <p>Games, E-sport e whatsapp</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Noticias sobre whatsapp</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime,
+            praesentium molestias? Est placeat totam qui a, magnam commodi
+            nostrum molestias, perferendis praesentium consequuntur iste
+            assumenda cum sint ex itaque deserunt.
+          </p>
+          <aside>Artigo escrito por Jubileu</aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Victor Soledade</p>
+    </footer>
+  </body>
+
+  <div id="bola">
+
+  </div>
+</html>
