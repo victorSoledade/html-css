@@ -1,0 +1,27 @@
+MELHOR FORMA DE COLOCAR UMA IMAGEM NUM SITE: >>>
+
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.897);
+        background-image: url(imagens/wallpaper002.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        TA AI PO!
+
+        height 100vh para o conteudo ocupar 100% da tela
+        background-position para posicionar a imagem baseada numa regiao dela
+        background-repeat para controlar a repetição da imagem
+        E o segredo>>
+        >> background-size COVER para deixar a imagem perfeitinha na tela, mostrando o maximo de conteudo possivel baseado no tamanho da tela!!!
+
+
+  shorthand de background >>
+    background: 1º 2º 3º 4º 5º 6º;
+
+    1º color; 2º image; 3º position; 4º repeat; 5º [size]; 6º attachment.
+    O background SIZE NÃO FUNCIONA NO shorthand!!
+  <<
+
+
+<<<
