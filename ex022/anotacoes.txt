@@ -23,5 +23,12 @@ MELHOR FORMA DE COLOCAR UMA IMAGEM NUM SITE: >>>
     O background SIZE NÃO FUNCIONA NO shorthand!!
   <<
 
+  COMO CENTRALIZAR UMA DIV, FINALMENTE! >>>
+  É UMA TÁTICA MILENAR MUITO BEM ELABORADA:
+  1ª > é necessário que a div container (a div maior onde a div menor vai estar centralizada) esteja com sua posição relativa (position: relative;). E a div menor, esteja em, posição absoluta (position:absolut;).
+  2º > quando a div menor estiver em posição absoluta é possível mexer nos atributos de posição: top, bottom, right e left. Mexa no top e left, pondo eles dois em 50% para que o píxel superior esquerdo da div menor fique centralizada com o centro da div maior.
+  3º > Agora vem o truque. Basta utilizar o  transform: translate(-50%, -50%), e o centro da div menor estará no centro da div maior!
+  <<<
+
 
 <<<
