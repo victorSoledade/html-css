@@ -1,0 +1,24 @@
+VERTICAL-ALIGN
+
+é possível alinhar um texto verticalmente com o vertical-align.
+>> com os valores top bottom e middle <<
+
+PSEUDO-CLASSE NTH:CHILD() == para criar efeitos em tabelas, colocar o numero de casas que deve pular ou aplicar estilo;
+
+ex: 
+  tr:nth-child(2n) {
+    background-color: darkgray;
+    color:white;
+  }
+  >>Este código aplicará o efeito de zebra
+
+
+POSITION STICKY PARA TRAVAR O CABEÇÁLHO DA TABELA>>
+
+para travar o CABEÇÁLHO da TABELA, basta por a tabela em POSITION relative e o th do tr do thead em position STICKY. Depois, por "top:-1px;" para travar esse pedaço no topo da pagina. aproveita para por o mesmo background color
+ex:  table {
+  position: relative;
+  width: 500px;
+  border-collapse: collapse;
+}
+  
