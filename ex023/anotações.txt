@@ -21,4 +21,24 @@ ex:  table {
   width: 500px;
   border-collapse: collapse;
 }
-  
+
+COLSPAN == forma para fazer com que uma célula ocupe mais colunas.
+ex: 
+  colspan="2"; (aplicado no HTML!).
+
+ROWSPAN == forma para que fazer com que uma célula ocume mais linhas.
+
+
+COLGROUP ==  tag para tabelas. Serve para criar classes para colunas de tabelas mais facilmente.
+
+ex:
+  <table>
+    <colgroup>
+      <col class="">
+      <col class="">
+      <col class="">
+      <col class="">
+    </colgroup>
+  </table>
+
+
