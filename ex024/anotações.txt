@@ -1,0 +1,8 @@
+Iframes >
+
+para voce criar um iframe mais dinamico pode usar "name" nele e dar um nome para esse iframe, como se fosse um id. Depois usar um target apontando para ele, para que ele possa aprensentar um conteúdo de sua preferência.
+
+ex:
+  <a href="pagina001.html" target="frame">Primeira página</a>
+  essa parte fará com que esse conteudo seja apresentao no iframe "frame".
+
