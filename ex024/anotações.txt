@@ -6,3 +6,9 @@ ex:
   <a href="pagina001.html" target="frame">Primeira página</a>
   essa parte fará com que esse conteudo seja apresentao no iframe "frame".
 
+MAIS SEGURANÇA NOS IFRAMES >>
+
+é possível limitar os formulários de um iframe para aumentar a segurança do site usando: sandbox="" e referrerpolicy="no-referrer"
+
+aumentando a segurança dos dados enviados por formulários de um iframe. E tambem serve para scripts acionados no site
+
