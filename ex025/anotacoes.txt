@@ -2,3 +2,12 @@ LABEL
 
 recurso usado nos formulários para relacionar o campo com o nome
 
+METODOS GET E POST
+
+Dois métodos de envio de dados, get mostra na url e post não.
+GET so pode enviar dados até 3.000 bytes
+POST é melhor para dados sensíveis com HTTPS e tiver mais de 3.000 bytes e envio de arquivos
+
+
+
+
