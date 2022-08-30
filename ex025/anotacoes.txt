@@ -10,6 +10,7 @@ POST é melhor para dados sensíveis com HTTPS e tiver mais de 3.000 bytes e env
 
 Required >> campo obrigatório no input
 min-length e max-length são para controlar o tamanho das strings no input
+min e max para caixas numéricas
 
 SIZE == tamanho da caixa
 
