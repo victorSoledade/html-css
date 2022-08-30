@@ -11,6 +11,12 @@ POST é melhor para dados sensíveis com HTTPS e tiver mais de 3.000 bytes e env
 Required >> campo obrigatório no input
 min-length e max-length são para controlar o tamanho das strings no input
 
+SIZE == tamanho da caixa
+
+placeholder == dica para o usuário no campo
+
+AUTOCOMPLETE == serve para dar dicas ao usuário, nomes que eles ja utilizaram e o navegador guardou. Primeiro é necessário por autocomplete="on" na tag <form>, e depois especificar com o autocomplete= [o tipo de dado requerido] no input
+
 
 
 
