@@ -20,6 +20,8 @@ AUTOCOMPLETE == serve para dar dicas ao usuário, nomes que eles ja utilizaram e
 
 FIELDSET E LEGEND >> TAGS PARA AGRUPAMENTO DE INPUTS E LEGENDA DE GRUPO
 
+Todos botoes de radio tem que ter o mesmo name e id diferentes
+
 
 
 
